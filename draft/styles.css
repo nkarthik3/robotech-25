@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #20561d;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -25,7 +25,7 @@ section {
 }
 
 h2 {
-    color: #333;
+    color: #fff;
 }
 
 ul {
@@ -40,12 +40,16 @@ ul li {
     border: 1px solid #ddd;
 }
 
+table, th, td {
+    border:1px solid black;
+    padding: 5px;
+}
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
